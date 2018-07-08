@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 135, in script
+    if not povname:
+  File "game/script.rpy", line 135, in <module>
+    if not povname:
+NameError: name 'povname' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 135, in script
+    if not povname:
+  File "C:\Users\Sam\Desktop\renpy-7.0.0-sdk\renpy\ast.py", line 1729, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Sam\Desktop\renpy-7.0.0-sdk\renpy\python.py", line 1943, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Sam\Desktop\renpy-7.0.0-sdk\renpy\python.py", line 1936, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 135, in <module>
+    if not povname:
+NameError: name 'povname' is not defined
+
+Windows-7-6.1.7601-SP1
+Ren'Py 7.0.0.196
+Pip 1.0
+Sun Jul 08 13:55:27 2018
